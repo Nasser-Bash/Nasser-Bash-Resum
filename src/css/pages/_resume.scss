@@ -1,0 +1,31 @@
+.resumepage{
+    .education,.experience{
+    .education-section {
+        position: relative;
+        border-left: 2px solid $third-color;
+        border-bottom: 0.5px solid #6c757d;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            left: 0;
+            border: 13px solid;
+            border-color: transparent transparent transparent $third-color;
+            
+        }
+    }
+}
+.my-skills{
+    .skills{
+        .skill{
+          
+        background-color: $third-color;
+        margin: 5px;
+        padding: 10px;
+        font-size: larger;
+    }
+    }
+}
+}
